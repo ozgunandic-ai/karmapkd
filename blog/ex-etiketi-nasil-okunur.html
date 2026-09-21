@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3f4f4">
+
+<title>EX Etiketi Nasıl Okunur? ATEX İşaretlemesi Rehberi</title>
+<meta name="description" content="EX etiketi nasıl okunur? Ex II 2G Ex db IIC T4 Gb örneğiyle kategori, koruma tipi, gaz grubu, sıcaklık sınıfı, EPL ve Zone eşleşmesi. X ve U işaretleri.">
+<link rel="canonical" href="https://www.karmapkd.com/blog/ex-etiketi-nasil-okunur.html">
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="KARMA PKD">
+<meta property="og:title" content="EX Etiketi Nasıl Okunur? ATEX İşaretlemesi ve EX Marking Rehberi">
+<meta property="og:description" content="EX etiketi nasıl okunur? Ex II 2G Ex db IIC T4 Gb örneğiyle kategori, koruma tipi, gaz grubu, sıcaklık sınıfı, EPL ve Zone eşleşmesi. X ve U işaretleri.">
+<meta property="og:url" content="https://www.karmapkd.com/blog/ex-etiketi-nasil-okunur.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "headline": "EX Etiketi Nasıl Okunur? ATEX İşaretlemesi ve EX Marking Rehberi",
+      "description": "EX etiketi nasıl okunur? Ex II 2G Ex db IIC T4 Gb örneğiyle kategori, koruma tipi, gaz grubu, sıcaklık sınıfı, EPL ve Zone eşleşmesi. X ve U işaretleri.",
+      "inLanguage": "tr",
+      "datePublished": "2026-09-21",
+      "dateModified": "2026-09-21",
+      "author": { "@type": "Organization", "name": "KARMA PKD" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "KARMA PKD",
+        "logo": { "@type": "ImageObject", "url": "https://www.karmapkd.com/blog/assets/logo-dark.png" }
+      },
+      "mainEntityOfPage": "https://www.karmapkd.com/blog/ex-etiketi-nasil-okunur.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": "https://www.karmapkd.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmapkd.com/blog/" },
+        { "@type": "ListItem", "position": 3, "name": "EX etiketi nasıl okunur?", "item": "https://www.karmapkd.com/blog/ex-etiketi-nasil-okunur.html" }
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="blog.css">
+<style>
+  .post-body h2, .post-body h3 { scroll-margin-top: 5.5rem; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  /* Tablolar: dar ekranda yatay kayar, sayfayı taşırmaz */
+  .post-body .tbl { overflow-x: auto; margin: 1.75rem 0; }
+  .post-body table { border-collapse: collapse; width: 100%; min-width: 26rem; }
+  .post-body th, .post-body td {
+    text-align: left; vertical-align: top; padding: .7rem 1rem .7rem 0;
+    border-bottom: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  }
+  .post-body th { font-weight: 700; border-bottom-width: 2px; border-bottom-color: currentColor; }
+  .post-body td:first-child { font-weight: 700; white-space: nowrap; }
+
+  /* Ex işaretlemeleri: etiket plakası gibi çerçeveli, eş aralıklı yazı */
+  .post-body code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: .92em; font-weight: 600; overflow-wrap: anywhere;
+  }
+  .post-body .ex-line { margin: 1.25rem 0; }
+  .post-body .ex-line code {
+    display: inline-block; padding: .4rem .8rem; border: 2px solid currentColor;
+    font-size: 1.05em; line-height: 1.4;
+  }
+  .post-body .ex-line .or { margin: 0 .6rem; }
+
+  /* Bir işaretlemenin parça parça çözümü */
+  .post-body figure.marking { margin: 2rem 0; }
+  .post-body figure.marking .mk-row { display: flex; flex-wrap: wrap; gap: 1.1rem 1.25rem; }
+  .post-body figure.marking .mk { flex: 1 1 7.5rem; min-width: 0; border-top: 3px solid currentColor; padding-top: .6rem; }
+  .post-body figure.marking .mk strong {
+    display: block; margin-bottom: .35rem; font-size: 1.35rem; line-height: 1.2;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  .post-body figure.marking .mk span { display: block; font-size: .9rem; line-height: 1.4; }
+  .post-body figure.marking figcaption { margin-top: 1rem; }
+</style>
+</head>
+<body>
+<a class="skip" href="#icerik">İçeriğe geç</a>
+
+<header class="bhdr">
+  <a class="logo" href="../index.html" aria-label="KARMA PKD, ana sayfa"><span class="lg lg-dark" aria-hidden="true"></span></a>
+  <nav class="bnav" aria-label="Ana menü">
+    <a class="home" href="../index.html">Ana sayfa</a>
+    <a href="../index.html#hizmetler">Hizmetler</a>
+    <a href="index.html" aria-current="page">Blog</a>
+    <a href="../index.html#iletisim">İletişim</a>
+  </nav>
+</header>
+
+<nav class="crumbs" aria-label="Sayfa konumu">
+  <ol>
+    <li><a href="../index.html">Ana sayfa</a></li>
+    <li><a href="index.html">Blog</a></li>
+    <li aria-current="page">EX etiketi nasıl okunur?</li>
+  </ol>
+</nav>
+
+<main id="icerik">
+  <article class="post-wrap">
+    <header class="post-head">
+      <h1 class="disp">EX Etiketi Nasıl Okunur? ATEX İşaretlemesi ve EX Marking Rehberi</h1>
+      <p class="meta"><a href="index.html">Teknik</a>, <time datetime="2026-09-21">21 Eylül 2026</time></p>
+    </header>
+
+    <div class="post-body">
+      <p>Patlayıcı ortam bulunan işletmelerde kullanılan elektrikli ve mekanik ekipmanların üzerinde “Ex” işareti bulunan etiketler görülür. Ancak bu etikette yer alan II 2G, Ex db, IIC, T4, Gb gibi ifadelerin ne anlama geldiği çoğu zaman tam olarak bilinmez.</p>
+      <p>Oysa bir ekipmanın gerçekten belirli bir Zone içerisinde kullanılabilir olup olmadığını değerlendirmek için yalnızca üzerinde “Ex” yazması yeterli değildir.</p>
+      <p>Ekipmanın;</p>
+      <ul>
+        <li>Hangi patlayıcı ortam için tasarlandığı,</li>
+        <li>Hangi Zone'da kullanılabileceği,</li>
+        <li>Hangi koruma yöntemine sahip olduğu,</li>
+        <li>Gaz veya toz grubunun ne olduğu,</li>
+        <li>Maksimum yüzey sıcaklığının ne olduğu,</li>
+        <li>Hangi Equipment Protection Level'a (EPL) sahip olduğu</li>
+      </ul>
+      <p>gibi bilgilerin EX etiketi ve ilgili sertifika üzerinden değerlendirilmesi gerekir.</p>
+      <p>Bu nedenle EX etiketi okumak, <a href="patlamadan-korunma-dokumani-nedir.html">Patlamadan Korunma Dokümanı (PKD)</a> hazırlanmasında ve ATEX ekipman seçiminde önemli bir adımdır.</p>
+
+      <h2 id="ex-etiketi-nedir">EX Etiketi Nedir?</h2>
+      <p>EX etiketi, ekipmanın patlayıcı atmosferlerde kullanımına ilişkin koruma özelliklerini gösteren işaretleme bilgileridir.</p>
+      <p>ATEX kapsamında patlayıcı atmosfer; gaz, buhar, sis veya tozların hava ile oluşturduğu ve belirli koşullarda tutuşarak patlamaya neden olabilecek karışımları ifade eder. ATEX 2014/34/EU Direktifi, bu tür ortamlarda kullanılmak üzere tasarlanan ekipman ve koruyucu sistemlere yönelik gereklilikleri düzenler.</p>
+      <p>Bir EX etiketi genellikle aşağıdakilere benzer şekilde karşımıza çıkar:</p>
+      <p class="ex-line"><code>Ex II 2G Ex db IIC T4 Gb</code></p>
+      <p>veya</p>
+      <p class="ex-line"><code>Ex II 2D Ex tb IIIC T135°C Db</code></p>
+      <p>Buradaki her sembol ekipmanın farklı bir özelliğini ifade eder.</p>
+
+      <h2 id="etiket-bilgileri">EX Etiketi Üzerindeki Bilgiler Nasıl Okunur?</h2>
+      <p>Örnek olarak aşağıdaki işaretlemeyi ele alalım:</p>
+      <p class="ex-line"><code>Ex II 2G Ex db IIC T4 Gb</code></p>
+      <p>Bu ifadeyi şu şekilde parçalara ayırabiliriz:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">İşaret</th><th scope="col">Anlamı</th></tr></thead>
+          <tbody>
+            <tr><td>Ex</td><td>Patlayıcı atmosferlerde kullanım için uygunluk işareti</td></tr>
+            <tr><td>II</td><td>Maden dışı endüstriyel ekipman grubu</td></tr>
+            <tr><td>2G</td><td>Gaz/buhar ortamı için Kategori 2</td></tr>
+            <tr><td>Ex db</td><td>Alev sızdırmaz muhafaza koruma tipi</td></tr>
+            <tr><td>IIC</td><td>Gaz grubu</td></tr>
+            <tr><td>T4</td><td>Sıcaklık sınıfı</td></tr>
+            <tr><td>Gb</td><td>Equipment Protection Level (EPL)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Şimdi bunları tek tek inceleyelim.</p>
+
+      <h3 id="ex-nedir">1. “Ex” Ne Anlama Gelir?</h3>
+      <p>Etiket üzerindeki Ex ifadesi, ekipmanın patlayıcı atmosferlerde kullanılmak üzere ilgili Ex koruma prensipleri kapsamında değerlendirildiğini gösterir.</p>
+      <p>Ancak önemli bir nokta vardır:</p>
+      <blockquote>Bir ekipmanın üzerinde “Ex” yazması, ekipmanın her türlü patlayıcı ortamda kullanılabileceği anlamına gelmez.</blockquote>
+      <p>Örneğin <code>Ex db IIC T4 Gb</code> ile <code>Ex ia IIC T4 Ga</code> aynı ekipman özelliklerine sahip değildir.</p>
+      <p>Koruma yöntemi, gaz grubu, sıcaklık sınıfı ve EPL gibi bilgilerin tamamı birlikte değerlendirilmelidir.</p>
+
+      <h3 id="ekipman-grubu">2. “I, II ve III” Ne Anlama Gelir?</h3>
+      <p>EX işaretlemelerinde ekipman grubu da gösterilebilir. Genel olarak:</p>
+      <dl>
+        <div><dt>Grup I – Madenler</dt><dd>Yeraltı madenleri ve grizu veya yanıcı toz riski bulunan maden işletmelerinde kullanılmak üzere tasarlanan ekipmanları ifade eder.</dd></div>
+        <div><dt>Grup II – Maden dışı endüstriyel tesisler</dt><dd>Petrol, kimya, boya, ilaç, gıda, enerji, yakıt istasyonları ve benzeri endüstriyel tesislerde karşılaşılır.</dd></div>
+        <div><dt>Grup III – Tozlu ortamlar</dt><dd>Yanıcı tozların bulunduğu patlayıcı atmosferler için kullanılan ekipman grubudur.</dd></div>
+      </dl>
+      <p>Grup III kendi içerisinde şu şekilde ayrılır:</p>
+      <dl>
+        <div><dt>IIIA</dt><dd>Yanıcı uçuşan parçacıklar</dd></div>
+        <div><dt>IIIB</dt><dd>İletken olmayan tozlar</dd></div>
+        <div><dt>IIIC</dt><dd>İletken tozlar</dd></div>
+      </dl>
+      <p>Örneğin:</p>
+      <p class="ex-line"><code>Ex tb IIIC T135°C Db</code></p>
+      <p>işaretlemesinde IIIC, ekipmanın iletken toz atmosferleri için değerlendirildiğini gösterir.</p>
+
+      <h3 id="kategori-2g">3. “2G” Ne Anlama Gelir?</h3>
+      <p>ATEX ekipman kategorilerinde G, ekipmanın gaz, buhar veya sis bulunan atmosferlere yönelik olduğunu ifade eder. Örneğin:</p>
+      <dl>
+        <div><dt>1G</dt><dd>Gaz/buhar/sis için Kategori 1</dd></div>
+        <div><dt>2G</dt><dd>Gaz/buhar/sis için Kategori 2</dd></div>
+        <div><dt>3G</dt><dd>Gaz/buhar/sis için Kategori 3</dd></div>
+      </dl>
+      <p>Genel olarak bu kategoriler Zone'larla şu şekilde ilişkilendirilir:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">ATEX kategorisi</th><th scope="col">Gaz/buhar Zone</th></tr></thead>
+          <tbody>
+            <tr><td>1G</td><td>Zone 0, 1, 2</td></tr>
+            <tr><td>2G</td><td>Zone 1, 2</td></tr>
+            <tr><td>3G</td><td>Zone 2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Avrupa Komisyonu'nun ATEX rehberinde de 1G, 2G ve 3G kategorileri sırasıyla Zone 0-1-2, Zone 1-2 ve Zone 2 ile ilişkilendirilmektedir.</p>
+      <p>Ancak burada önemli bir ayrım vardır:</p>
+      <blockquote>Zone sınıflandırması ile ekipman kategorisi aynı şey değildir.</blockquote>
+      <p>Zone, tehlikeli atmosferin oluşma sıklığı ve süresiyle ilgili alan sınıflandırmasıdır. Kategori ise ekipmanın sağlayabileceği koruma seviyesine ilişkin ekipman sınıflandırmasıdır. Zone tanımları için <a href="zone-0-1-2-20-21-22-nedir.html">Zone 0, 1, 2 ve Zone 20, 21, 22 Nedir?</a> yazımıza bakabilirsiniz.</p>
+
+      <h3 id="kategori-2d">4. “2D” Ne Anlama Gelir?</h3>
+      <p>Tozlu ortamlar için D kullanılır. Örneğin:</p>
+      <p class="ex-line"><code>Ex II 2D</code></p>
+      <p>ifadesi, Grup II kapsamındaki ve toz atmosferleri için Kategori 2 ekipmanı ifade eder. Genel ilişki:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">ATEX kategorisi</th><th scope="col">Toz Zone</th></tr></thead>
+          <tbody>
+            <tr><td>1D</td><td>Zone 20, 21, 22</td></tr>
+            <tr><td>2D</td><td>Zone 21, 22</td></tr>
+            <tr><td>3D</td><td>Zone 22</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Dolayısıyla Zone 21'de kullanılacak bir ekipman için yalnızca “Ex” ibaresine bakmak yeterli değildir. Ekipmanın toz atmosferine uygunluğu ve kategori/EPL bilgileri de incelenmelidir.</p>
+
+      <h3 id="g-d-fark">5. “G” ve “D” Arasındaki Fark Nedir?</h3>
+      <p>Bu ayrım özellikle ekipman seçiminde çok önemlidir.</p>
+      <p><strong>G = Gas</strong></p>
+      <p>Gaz, buhar veya sis kaynaklı patlayıcı atmosferler. Örneğin:</p>
+      <ul>
+        <li>Benzin buharı</li>
+        <li>Tiner buharı</li>
+        <li>LPG</li>
+        <li>Doğal gaz</li>
+        <li>Hidrojen</li>
+        <li>Solvent buharları</li>
+      </ul>
+      <p><strong>D = Dust</strong></p>
+      <p>Yanıcı toz kaynaklı patlayıcı atmosferler. Örneğin:</p>
+      <ul>
+        <li>Un</li>
+        <li>Süt tozu</li>
+        <li>Şeker</li>
+        <li>Ahşap tozu</li>
+        <li>Kömür tozu</li>
+        <li>Plastik tozu</li>
+        <li>Metal tozları</li>
+      </ul>
+      <p>Bu nedenle gaz ortamı için uygun bir Ex ekipmanın tozlu ortamda otomatik olarak kullanılabileceği düşünülmemelidir.</p>
+
+      <h3 id="ex-db">6. “Ex db” Ne Demektir?</h3>
+      <p>Şimdi EX etiketinin en teknik bölümlerinden birine gelelim. Örneğimiz:</p>
+      <p class="ex-line"><code>Ex db IIC T4 Gb</code></p>
+      <p>Buradaki db, ekipmanın alev sızdırmaz muhafaza (Flameproof Enclosure) koruma tipine sahip olduğunu ifade eder. “d” koruma tipinin alev sızdırmaz muhafaza prensibini, “b” ise ilgili koruma seviyesini belirtir.</p>
+      <p>Bu tür ekipmanlarda patlama riski, muhafazanın tasarımı ve ilgili koruma standardının gereklilikleri ile kontrol edilir.</p>
+      <p>IECEx dokümanlarında da “d” alev sızdırmaz muhafaza koruma tipi olarak tanımlanmakta ve “db” gibi seviyelerle birlikte işaretlenmektedir.</p>
+      <p>Sahada aşağıdaki koruma tipleriyle de karşılaşılabilir:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">İşaret</th><th scope="col">Koruma prensibi</th></tr></thead>
+          <tbody>
+            <tr><td>Ex d</td><td>Alev sızdırmaz muhafaza</td></tr>
+            <tr><td>Ex e</td><td>Artırılmış güvenlik</td></tr>
+            <tr><td>Ex i</td><td>Kendinden emniyetli</td></tr>
+            <tr><td>Ex m</td><td>Kapsülleme</td></tr>
+            <tr><td>Ex p</td><td>Basınçlandırma</td></tr>
+            <tr><td>Ex t</td><td>Muhafaza ile toz tutuşmasına karşı koruma</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Örneğin <code>Ex ia IIC T4 Ga</code> ile <code>Ex db IIC T4 Gb</code> aynı koruma yöntemini ifade etmez.</p>
+
+      <h3 id="iic">7. “IIC” Ne Anlama Gelir?</h3>
+      <p>Gaz grubu, özellikle Zone 0, Zone 1 ve Zone 2 ekipman seçiminde önemli parametrelerden biridir. Gaz grupları genel olarak IIA, IIB ve IIC şeklinde sınıflandırılır.</p>
+      <p>Genel olarak koruma açısından şu sıra ile daha yüksek gerekliliklere doğru gidilir:</p>
+      <blockquote>IIA → IIB → IIC</blockquote>
+      <p>Özellikle hidrojen ve asetilen gibi daha kolay tutuşabilen gazlar açısından IIC grubu önemlidir.</p>
+      <p>Örneğin <code>Ex db IIC T4 Gb</code> işaretlemesindeki IIC, ekipmanın IIC gaz grubuna göre değerlendirildiğini gösterir.</p>
+
+      <h3 id="iia-iib-iic">8. IIA, IIB ve IIC Nasıl Değerlendirilir?</h3>
+      <p>Basitleştirilmiş olarak:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Gaz grubu</th><th scope="col">Örnek gazlar</th></tr></thead>
+          <tbody>
+            <tr><td>IIA</td><td>Propan, bütan gibi birçok hidrokarbon</td></tr>
+            <tr><td>IIB</td><td>Etilen</td></tr>
+            <tr><td>IIC</td><td>Hidrojen, asetilen</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Ancak bir ekipmanın gaz grubuna uygunluğu değerlendirilirken yalnızca gazın adına bakılmamalıdır. PKD kapsamında;</p>
+      <ul>
+        <li>Gazın minimum tutuşma enerjisi,</li>
+        <li>MESG,</li>
+        <li>MIC oranı,</li>
+        <li>Gaz grubu,</li>
+        <li>Tutuşma özellikleri</li>
+      </ul>
+      <p>gibi teknik parametreler de önem kazanabilir.</p>
+
+      <h3 id="t4">9. “T4” Ne Demektir?</h3>
+      <p>EX etiketindeki en çok yanlış yorumlanan bilgilerden biri T sıcaklık sınıfıdır. Örneğin T4, ekipmanın maksimum yüzey sıcaklığının ilgili koşullarda 135 °C'yi aşmayacak şekilde sınırlandığını ifade eder.</p>
+      <p>Gaz grubu için sıcaklık sınıfları:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">Sıcaklık sınıfı</th><th scope="col">Maksimum yüzey sıcaklığı</th></tr></thead>
+          <tbody>
+            <tr><td>T1</td><td>450 °C</td></tr>
+            <tr><td>T2</td><td>300 °C</td></tr>
+            <tr><td>T3</td><td>200 °C</td></tr>
+            <tr><td>T4</td><td>135 °C</td></tr>
+            <tr><td>T5</td><td>100 °C</td></tr>
+            <tr><td>T6</td><td>85 °C</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Burada çok önemli bir kural vardır:</p>
+      <blockquote>T6 daha düşük maksimum yüzey sıcaklığı anlamına gelir ve sıcaklık açısından T4'ten daha sıkı bir sınıftır.</blockquote>
+      <p>Örneğin bir proses ortamında bulunan yanıcı gazın tutuşma sıcaklığı 120 °C ise, yalnızca ekipmanın “Ex” olması yeterli değildir. Ekipmanın maksimum yüzey sıcaklığının uygunluğu ayrıca değerlendirilmelidir.</p>
+
+      <h3 id="t135">10. Tozlu Ortamlarda Neden “T4” Yerine “T135°C” Görebiliriz?</h3>
+      <p>Gaz atmosferlerinde T1, T2, T3, T4, T5, T6 gibi sıcaklık sınıfları kullanılır. Toz atmosferlerinde ise çoğu zaman ekipmanın maksimum yüzey sıcaklığı doğrudan °C olarak gösterilir. Örneğin:</p>
+      <p class="ex-line"><code>Ex tb IIIC T135°C Db</code></p>
+      <p>buradaki T135°C, ekipmanın belirtilen değerlendirme koşullarındaki maksimum yüzey sıcaklığına ilişkin bilgiyi ifade eder.</p>
+      <p>IECEx örnek işaretlemelerinde gaz için T sınıfı, toz için ise maksimum yüzey sıcaklığının °C olarak gösterildiği örnekler bulunmaktadır.</p>
+
+      <h3 id="gb">11. “Gb” Ne Demektir?</h3>
+      <p>EX etiketinin son bölümlerinden biri EPL – Equipment Protection Level bilgisidir. Örneğimizde Gb, gaz atmosferleri için Equipment Protection Level bilgisidir.</p>
+      <p>Genel olarak gaz atmosferleri için Ga, Gb ve Gc EPL seviyeleri bulunur. Bunların Zone'larla genel ilişkisi:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">EPL</th><th scope="col">Kullanılabileceği Zone</th></tr></thead>
+          <tbody>
+            <tr><td>Ga</td><td>Zone 0, 1, 2</td></tr>
+            <tr><td>Gb</td><td>Zone 1, 2</td></tr>
+            <tr><td>Gc</td><td>Zone 2</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Toz atmosferlerinde ise Da, Db ve Dc kullanılır:</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th scope="col">EPL</th><th scope="col">Kullanılabileceği Zone</th></tr></thead>
+          <tbody>
+            <tr><td>Da</td><td>Zone 20, 21, 22</td></tr>
+            <tr><td>Db</td><td>Zone 21, 22</td></tr>
+            <tr><td>Dc</td><td>Zone 22</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Bu nedenle temel bir ilişki kurulabilir:</p>
+      <blockquote>Gb → Gaz → Zone 1/2<br>Db → Toz → Zone 21/22</blockquote>
+
+      <h3 id="bastan-sona">12. Bir EX Etiketini Baştan Sona Nasıl Okuruz?</h3>
+      <p>Şimdi örneğimizi tekrar inceleyelim:</p>
+      <p class="ex-line"><code>Ex II 2G Ex db IIC T4 Gb</code></p>
+      <p>Bunu şu şekilde okuyabiliriz:</p>
+      <figure class="marking">
+        <div class="mk-row">
+          <div class="mk"><strong>Ex</strong><span>Patlayıcı atmosferlerde kullanım amacı</span></div>
+          <div class="mk"><strong>II</strong><span>Maden dışı endüstriyel ekipman</span></div>
+          <div class="mk"><strong>2G</strong><span>Gaz/buhar/sis atmosferi için ATEX Kategori 2</span></div>
+          <div class="mk"><strong>Ex db</strong><span>Alev sızdırmaz muhafaza koruma tipi</span></div>
+          <div class="mk"><strong>IIC</strong><span>Gaz grubu</span></div>
+          <div class="mk"><strong>T4</strong><span>Maksimum yüzey sıcaklığı 135 °C</span></div>
+          <div class="mk"><strong>Gb</strong><span>Gaz atmosferi için EPL</span></div>
+        </div>
+        <figcaption>Etiketin parçaları soldan sağa sırasıyla okunur.</figcaption>
+      </figure>
+      <p>Dolayısıyla bu etiketi gören bir PKD uzmanı, ekipmanın hangi Zone ve hangi proses koşullarında kullanılabileceğini değerlendirebilir. Ancak nihai uygunluk değerlendirmesi yalnızca etiketten yapılmamalıdır.</p>
+
+      <h2 id="etiket-zone">EX Etiketi ile Zone Nasıl Eşleştirilir?</h2>
+      <p>Örneğin işletmede bir alan Zone 1 olarak belirlenmiş olsun. Bu durumda kullanılacak ekipmanda gaz atmosferine yönelik uygun bir koruma seviyesi bulunmalıdır. Örneğin:</p>
+      <p class="ex-line"><code>Ex db IIC T4 Gb</code></p>
+      <p>işaretlemeli bir ekipman, ilgili diğer şartlar da sağlanıyorsa Zone 1 uygulamalarında değerlendirilebilir.</p>
+      <p>Buna karşılık <code>Ex … Gc</code> seviyesindeki bir ekipmanın Zone 1'de kullanılması uygun kabul edilemez. Çünkü Gc, Zone 2 seviyesine yönelik bir EPL'dir.</p>
+      <p>Avrupa Komisyonu'nun ATEX açıklamalarında da 2G ekipmanın Zone 1 ve Zone 2, 3G ekipmanın ise Zone 2 ile ilişkilendirildiği belirtilmektedir.</p>
+
+      <h2 id="sadece-ex">EX Etiketi Okurken Sadece “Ex” Yazısına Bakmak Neden Yanlıştır?</h2>
+      <p>Sahada sık karşılaşılan hatalardan biri şudur:</p>
+      <blockquote>“Bu cihaz Ex-proof, dolayısıyla patlayıcı ortamda kullanılabilir.”</blockquote>
+      <p>Bu yaklaşım doğru değildir. Örneğin iki cihazın üzerinde de “Ex” bulunabilir:</p>
+      <dl>
+        <div><dt>Cihaz A</dt><dd><code>Ex db IIB T4 Gb</code></dd></div>
+        <div><dt>Cihaz B</dt><dd><code>Ex ia IIC T6 Ga</code></dd></div>
+      </dl>
+      <p>Her ikisi de Ex ekipman olmasına rağmen:</p>
+      <ul>
+        <li>Koruma yöntemleri farklıdır.</li>
+        <li>Gaz grupları farklıdır.</li>
+        <li>Sıcaklık sınıfları farklıdır.</li>
+        <li>EPL seviyeleri farklıdır.</li>
+        <li>Kullanım şartları farklı olabilir.</li>
+      </ul>
+      <p>Dolayısıyla ekipman seçimi etiketteki bütün bilgiler birlikte değerlendirilerek yapılmalıdır.</p>
+
+      <h2 id="etiket-sertifika">EX Etiketi ile Sertifika Aynı Şey midir?</h2>
+      <p>Hayır.</p>
+      <p>Etiket, ekipmanın üzerinde bulunan işaretleme bilgisidir. Sertifika ise ekipmanın ilgili standartlar kapsamında hangi şartlarda değerlendirildiğini gösteren daha kapsamlı teknik dokümandır.</p>
+      <p>Özellikle sertifikada;</p>
+      <ul>
+        <li>Ürün modeli,</li>
+        <li>Sertifika numarası,</li>
+        <li>Uygulanan standartlar,</li>
+        <li>Ex işaretlemesi,</li>
+        <li>Özel kullanım koşulları,</li>
+        <li>Ambient sıcaklık aralığı,</li>
+        <li>“X” ile belirtilen özel şartlar,</li>
+        <li>“U” ile belirtilen komponent sertifikası</li>
+      </ul>
+      <p>gibi bilgiler bulunabilir.</p>
+      <p>IECEx sertifikasyon sisteminde uygunluk sertifikası (CoC), ekipmanın Ex uygunluğunun değerlendirilmesi için kullanılan temel belgelerden biridir.</p>
+
+      <h3 id="x-isareti">“X” İşareti Ne Anlama Gelir?</h3>
+      <p>EX sertifikalarında bazen sertifika numarasının sonunda X görülebilir. Bu işaret, ekipmanın kullanımıyla ilgili özel koşullar bulunduğuna işaret eder.</p>
+      <p>Bu nedenle “Ex etiketi uygun görünüyor, ekipmanı hemen monte edelim” şeklinde hareket edilmemelidir. Sertifikanın ilgili bölümündeki özel kullanım şartları mutlaka incelenmelidir.</p>
+
+      <h3 id="u-isareti">“U” İşareti Ne Anlama Gelir?</h3>
+      <p>Bazı Ex ürünlerde sertifika numarasıyla birlikte U işareti görülebilir. Bu genellikle ekipmanın bir Ex Component olduğunu ve tek başına nihai ekipman olarak kullanılmak üzere değerlendirilmediğini gösterir.</p>
+      <p>IECEx dokümanlarında Ex Component'in tek başına kullanılmak yerine başka bir ekipman veya sisteme dahil edilmek üzere tasarlanan bir parça olduğu açıklanmaktadır.</p>
+      <p>Bu nedenle “Ex sertifikalı komponent = doğrudan kullanılabilir nihai Ex ekipman” şeklinde düşünülmemelidir.</p>
+
+      <h2 id="ce-ex">CE İşareti ile Ex İşareti Aynı mıdır?</h2>
+      <p>Hayır. CE ve Ex farklı anlamlara sahiptir.</p>
+      <p>CE işareti, ürünün kendisine uygulanabilen ilgili Avrupa Birliği mevzuatındaki uygunluk gerekliliklerinin yerine getirildiğini gösteren genel uygunluk işaretidir. Ex işareti ise ekipmanın patlayıcı atmosferlerde kullanımına yönelik koruma özellikleriyle ilişkilidir.</p>
+      <p>ATEX ekipmanları için temel mevzuat 2014/34/EU Direktifi olup Direktif, patlayıcı atmosferlerde kullanılacak ekipman ve koruyucu sistemlerin temel sağlık ve güvenlik gereklerini ve uygunluk değerlendirme prosedürlerini düzenlemektedir.</p>
+      <p>Dolayısıyla “CE var, Ex ortamda kullanılabilir” veya “Ex var, her Zone'da kullanılabilir” şeklinde bir çıkarım yapılmamalıdır.</p>
+
+      <h2 id="gaz-toz-etiket">Gaz ve Toz EX Etiketleri Nasıl Ayırt Edilir?</h2>
+      <p>İki örneği karşılaştıralım.</p>
+      <p><strong>Gaz için:</strong></p>
+      <p class="ex-line"><code>Ex db IIC T4 Gb</code></p>
+      <p>Burada:</p>
+      <dl>
+        <div><dt>IIC</dt><dd>Gaz grubu</dd></div>
+        <div><dt>T4</dt><dd>Sıcaklık sınıfı</dd></div>
+        <div><dt>Gb</dt><dd>Gaz atmosferi EPL'si</dd></div>
+      </dl>
+      <p>bulunmaktadır.</p>
+      <p><strong>Toz için:</strong></p>
+      <p class="ex-line"><code>Ex tb IIIC T135°C Db</code></p>
+      <p>Burada:</p>
+      <dl>
+        <div><dt>IIIC</dt><dd>Toz grubu</dd></div>
+        <div><dt>T135°C</dt><dd>Maksimum yüzey sıcaklığı</dd></div>
+        <div><dt>Db</dt><dd>Toz atmosferi EPL'si</dd></div>
+      </dl>
+      <p>bulunmaktadır.</p>
+      <p>Bu iki etiketin aynı olmadığı açıkça görülmektedir.</p>
+
+      <h2 id="pkd-ekipman">EX Etiketi ile PKD'de Ekipman Seçimi</h2>
+      <p>Patlamadan Korunma Dokümanı hazırlanırken öncelikle tehlikeli bölgeler belirlenir. Örneğin Zone 1 olarak sınıflandırılmış bir alanda kullanılacak ekipman için;</p>
+      <ul>
+        <li>Gaz/buhar ortamı olup olmadığı,</li>
+        <li>Gerekli ekipman kategorisi veya EPL,</li>
+        <li>Gaz grubu,</li>
+        <li>Sıcaklık sınıfı,</li>
+        <li>Koruma tipi,</li>
+        <li>Ekipmanın proses ve çevre şartları,</li>
+        <li>Sertifikadaki özel koşullar</li>
+      </ul>
+      <p>değerlendirilmelidir.</p>
+      <p>Tozlu ortamda ise ayrıca;</p>
+      <ul>
+        <li>Toz grubu,</li>
+        <li>Maksimum yüzey sıcaklığı,</li>
+        <li>Toz tabakalarının etkisi,</li>
+        <li>Tozun iletkenliği,</li>
+        <li>Ekipmanın toz girişine karşı koruma özellikleri</li>
+      </ul>
+      <p>gibi hususlar dikkate alınmalıdır.</p>
+
+      <h2 id="okuma-ornegi">EX Etiketi Okuma Örneği</h2>
+      <p>Bir boya üretim tesisinde solvent dolum alanı Zone 1 olarak sınıflandırılmış olsun. Tesiste kullanılacak motorun etiketi şu şekilde olsun:</p>
+      <p class="ex-line"><code>Ex db IIC T4 Gb</code></p>
+      <p>İlk değerlendirmede Zone 1 ile Gb ilişkisi uygundur. Ayrıca şu soruların değerlendirilmesi gerekir:</p>
+      <ul>
+        <li>IIC gaz grubu bakımından ilgili gazın gerektirdiği seviyeyi karşılıyor mu?</li>
+        <li>T4 ilgili solventin gerekli sıcaklık sınıfını karşılıyor mu?</li>
+      </ul>
+      <p>Bunlara ek olarak ekipmanın;</p>
+      <ul>
+        <li>Sertifikası,</li>
+        <li>Model numarası,</li>
+        <li>Ortam sıcaklığı,</li>
+        <li>Özel kullanım şartları,</li>
+        <li>Montaj şekli,</li>
+        <li>Kablo rakorları ve diğer bağlantı elemanları</li>
+      </ul>
+      <p>da incelenmelidir.</p>
+      <p>Yani yalnızca etiketteki “Ex” kelimesine bakılarak ekipman seçimi yapılmaz.</p>
+
+      <h2 id="hatalar">EX Ekipman Seçiminde En Sık Yapılan Hatalar</h2>
+
+      <h3>1. Sadece “Ex” yazısına bakmak</h3>
+      <p>Yanlış. Etiketin tamamı değerlendirilmelidir.</p>
+
+      <h3>2. Zone 1'e Zone 2 ekipmanı koymak</h3>
+      <p>Ekipmanın EPL/kategori seviyesi Zone gerekliliğini karşılamalıdır.</p>
+
+      <h3>3. Gaz ekipmanını toz ortamında kullanmak</h3>
+      <p>Gaz ve toz için işaretleme sistemi farklıdır.</p>
+
+      <h3>4. Sıcaklık sınıfını kontrol etmemek</h3>
+      <p>T sınıfı, ekipmanın yüzey sıcaklığı açısından kritik bir parametredir.</p>
+
+      <h3>5. Gaz grubunu dikkate almamak</h3>
+      <p>IIA, IIB ve IIC arasında önemli farklar vardır.</p>
+
+      <h3>6. Sertifikayı incelememek</h3>
+      <p>Etiket üzerinde “X” gibi özel kullanım koşulları bulunabileceği gibi sertifika, ekipmanın kullanımına ilişkin ek bilgiler içerebilir.</p>
+
+      <h3>7. Ex komponenti nihai ekipman olarak kabul etmek</h3>
+      <p>“U” işaretli komponentlerin kullanım amacı ve sertifika şartları ayrıca değerlendirilmelidir.</p>
+
+      <h2 id="kontrol-listesi">EX Etiketi Okuma İçin Pratik Kontrol Listesi</h2>
+      <p>Bir ekipmanın EX etiketini incelerken aşağıdaki sırayı kullanabilirsiniz:</p>
+      <ol>
+        <li><strong>Ekipman gaz mı, toz mu?</strong><br>G / D</li>
+        <li><strong>Hangi ekipman grubunda?</strong><br>I / II / III</li>
+        <li><strong>ATEX kategorisi nedir?</strong><br>1G / 2G / 3G / 1D / 2D / 3D</li>
+        <li><strong>Koruma tipi nedir?</strong><br>Örneğin: Ex d, Ex e, Ex i, Ex t</li>
+        <li><strong>Gaz veya toz grubu nedir?</strong><br>Örneğin: IIC / IIIB / IIIC</li>
+        <li><strong>Sıcaklık sınıfı veya maksimum yüzey sıcaklığı nedir?</strong><br>Örneğin: T4 / T6 / T135°C</li>
+        <li><strong>EPL nedir?</strong><br>Örneğin: Ga / Gb / Gc / Da / Db / Dc</li>
+        <li><strong>Sertifika mevcut mu?</strong><br>Model ve sertifika numarası kontrol edilmelidir.</li>
+        <li><strong>Sertifikada özel koşul var mı?</strong><br>X işareti ve sertifika şartları incelenmelidir.</li>
+        <li><strong>Ekipman gerçekten kurulacağı Zone için uygun mu?</strong><br>Son karar, ekipmanın tüm teknik özellikleri ile PKD'de belirlenen Zone ve proses koşullarının birlikte değerlendirilmesiyle verilmelidir.</li>
+      </ol>
+
+      <h2 id="sonuc">Sonuç: EX Etiketi Nasıl Okunur?</h2>
+      <p>EX etiketi, patlayıcı ortamlarda kullanılacak ekipmanın teknik özellikleri hakkında önemli bilgiler verir. Örneğin:</p>
+      <p class="ex-line"><code>Ex II 2G Ex db IIC T4 Gb</code></p>
+      <p>işaretlemesini gördüğümüzde;</p>
+      <dl>
+        <div><dt>II</dt><dd>Maden dışı endüstriyel ekipman</dd></div>
+        <div><dt>2G</dt><dd>Gaz/buhar/sis için Kategori 2</dd></div>
+        <div><dt>db</dt><dd>Alev sızdırmaz muhafaza koruması</dd></div>
+        <div><dt>IIC</dt><dd>Gaz grubu</dd></div>
+        <div><dt>T4</dt><dd>135 °C maksimum yüzey sıcaklığı sınıfı</dd></div>
+        <div><dt>Gb</dt><dd>Gaz atmosferi için EPL</dd></div>
+      </dl>
+      <p>gibi bilgileri okuyabiliriz.</p>
+      <p>Ancak EX ekipman seçimi yalnızca etiketi okumaktan ibaret değildir. Şu bilgiler birlikte değerlendirilmelidir:</p>
+      <blockquote>Zone sınıfı + ekipman kategorisi/EPL + koruma tipi + gaz/toz grubu + sıcaklık sınıfı/maksimum yüzey sıcaklığı + sertifika şartları + proses koşulları</blockquote>
+      <p>Özellikle Patlamadan Korunma Dokümanı (PKD) hazırlanırken ekipmanların EX işaretlemelerinin doğru yorumlanması, yanlış ekipman kullanımından kaynaklanabilecek tutuşturma risklerinin önlenmesi açısından büyük önem taşır.</p>
+
+      <h2 id="karma-pkd">KARMA PKD ile Patlamadan Korunma ve ATEX Çalışmaları</h2>
+      <p>KARMA PKD olarak işletmeler için;</p>
+      <ul>
+        <li>Patlamadan Korunma Dokümanı (PKD) hazırlanması</li>
+        <li>Zone 0, 1, 2 ve Zone 20, 21, 22 sınıflandırması</li>
+        <li>ATEX ekipman uygunluk değerlendirmesi</li>
+        <li>Ex ekipman seçimi</li>
+        <li>Gaz ve toz patlama risklerinin değerlendirilmesi</li>
+        <li>Havalandırma ve tehlikeli bölge hesaplamaları</li>
+        <li>PKD saha incelemeleri ve raporlamaları</li>
+      </ul>
+      <p>konularında teknik çalışmalar gerçekleştiriyoruz.</p>
+      <p>Patlayıcı ortam bulunan bir işletmede yalnızca ekipmanın üzerinde “Ex” ibaresinin bulunması yeterli değildir. Ekipmanın hangi Zone'da, hangi maddeyle ve hangi proses koşullarında kullanılacağı teknik olarak değerlendirilmelidir. Sorularınız için bizimle <a href="../index.html#iletisim">iletişime geçebilirsiniz</a>.</p>
+    </div>
+  </article>
+</main>
+
+<section class="cta" aria-labelledby="cta-h">
+  <h2 class="disp" id="cta-h">Tesisiniz için teklif alın</h2>
+  <a class="btn" href="../index.html#iletisim"><span>Teklif isteyin</span></a>
+</section>
+
+<footer class="foot">
+  <div>
+    <div class="foot-main">
+      <a class="logo" href="../index.html" aria-label="KARMA PKD, ana sayfa"><span class="lg lg-light" aria-hidden="true"></span></a>
+      <address class="foot-addr">
+        Mersinli Mah. 2823/1 Sok. No:16 D:109 Oto Plaza İş Merkezi Konak İzmir<br>
+        <a href="tel:+902324358785">+90 232 435 87 85</a>
+      </address>
+    </div>
+    <small>© 2026 KARMA PKD. Tüm hakları saklıdır.</small>
+  </div>
+  <nav aria-label="Alt menü">
+    <a href="../index.html#hizmetler">Hizmetler</a><a href="../index.html#referanslar">Referanslar</a><a href="index.html">Blog</a><a href="../index.html#iletisim">İletişim</a>
+  </nav>
+</footer>
+</body>
+</html>
